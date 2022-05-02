@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "Name": "Dummy",
+      "pass": "Password",
+      "mail": "Dummy@gmail.com",
+      "Mob_No": 912340123
+    },
+    {
+      "Name": "MUKESH KUMAR V",
+      "pass": "Good",
+      "mail": "Mymail@gmail.com",
+      "Mob_No": "9876543210",
+      "id": 2
+    },
+    {
+      "Name": "Demon",
+      "pass": "Demon",
+      "mail": "Demon17@gmail.com",
+      "Mob_No": "876543206",
+      "id": 3
+    },
+    {
+      "Name": "Yokesh",
+      "pass": "Yokesh",
+      "mail": "dd@gmail.com",
+      "Mob_No": "631217856",
+      "id": 4
+    },
+    {
+      "Name": "Shravan",
+      "pass": "shravanSuresh",
+      "mail": "ShravanKumar@gmail.com",
+      "Mob_No": "073417027",
+      "id": 5
+    },
+    {
+      "Name": "yuvarajan s",
+      "pass": "8608022930",
+      "mail": "yuvasabari8596@gmail.com",
+      "Mob_No": "8608032930",
+      "id": 6
+    },
+    {
+      "Name": "DURAIMARUDU.M",
+      "pass": "8754142032",
+      "mail": "DURAI@gmail.com",
+      "Mob_No": "9715187146",
+      "id": 7
+    }
+  ]
+}

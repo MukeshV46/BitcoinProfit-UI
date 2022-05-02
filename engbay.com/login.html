@@ -1,0 +1,125 @@
+<!DOCTYheaderE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=div, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="file:///D:/Frameworks%20and%20%20icons/fontawesome-free-5.15.3-web/fontawesome-free-5.15.3-web/css/all.css">
+
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+ <div class="hero">
+    <nav>
+        <div class="logo"><img src="D:\engbay.com\logo.webp" alt=""></div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#" id="log">Login</a></li>
+            <li><select name="lang" id="lang">
+                <option >ENG</option>
+                <option >TAM</option>
+                <option >TELG</option>
+                <option >KAN</option>
+                <option >MAL</option>
+            </select></li>
+            <div class="closeMenu"><i class="fa fa-times"></i></div>
+            <span class="icons">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-github"></i>
+            </span>
+        </ul>
+    </nav>
+    <div class="headings">
+        <h1>Bitcoin Profit Login <br> You’re Part of Something Great</h1>
+        <p>Welcome back to your trading platform. We’ve kept everything as you left it, so you’re ready <br> to start a new day of Bitcoin trading.</p>
+    </div>
+    <section>
+        <div class="cards">
+        <div class="login-card">
+            <div class="login-header">
+               <h3 id="login-head">PLEASE ENTER YOUR LOGIN DETAILS </h3>
+               <p>Enter your credentials below,click sign-in, and you can begin!</p>
+            </div>
+            <form action="" method="post" class="Regform">
+                <input type="text"  placeholder="Email" name="Email" required><br> <br>
+                <input type="password" name="Epass" placeholder="Password" required > <br> <br>
+                <input type="submit" id="log-btn"  class="Login" value="LOGIN">
+            </form>
+        </div>
+        <br>
+        <br>
+        <div class="reg-card">
+            <div class="reg-header">
+                <h1>REGISTER</h1>
+                <h4>We’re glad you’re here, but you haven’t signed up to be part of Bitcoin Profit yet. There’s no problem; we just want you to be aware of the excitement you’re about to have. Trading Bitcoin is fun and available to anyone. Please take a moment to visit our welcome page. You can find out how live trading works before signing up.</h4>
+            </div>
+            <form action="" method="post" class="form">
+                <div class="reg-row">
+                    <input   type="text" placeholder="Your Name"  name="name" required>
+                    <input type="password" placeholder="PassWord" name="Pass" required> <br><br>
+                </div>
+                <div class="reg-row">
+                   <input type="email"  id="" placeholder="Email" name="Mail" required> 
+                   <input type="number"  id="" placeholder="+91-XXXXX XXXXX" name="Num" required><br><br>
+                </div>
+                <input id="reg-end" class="submit" type="submit" value="REGISTER NOW">
+            </form>
+        </div>
+    </div>
+    <br>
+    <br> 
+    <div id="last">
+        <a  href="#">VISIT HOMEPAGE </a>
+    </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <footer>
+        <div class="top-foot">
+           <div id="foot-head"><img src="logo-footer.webp" alt="logo"></div>
+           <ul class="foot-side">
+                   <li>Home </li>
+                   <li>About us </li>
+                   <li>Contact Us  </li>
+                   <li>Term</li>
+                   <li>Privacy</li>
+                   <li>Login</li>
+                   <li>Bitcoin Calculator</li>
+           </ul>
+        </div>
+        <div class="mid-foot">
+        <br>    
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas quidem aliquam assumenda explicabo et? Ullam, deserunt, perspiciatis est quis neque aperiam, minus quos natus quae blanditiis eius fuga ea molestias.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi facilis minus officia hic ducimus commodi. Ullam, iure qui molestias ab odit accusamus facilis optio minima dolore, consequuntur maxime. Hic, inventore? Lorem ipsum dolor sit amet consectetur adipisicing elit. A consectetur facere rem quaerat ab, alias nam beatae assumenda ratione. Voluptatem minus officia, reiciendis quidem eaque ipsam magni velit ea eum!
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iure corporis rerum aperiam earum voluptas nam sint fuga dolorem reiciendis repellat ea quo cumque libero dolore voluptatem sed sit distinctio.</p>
+        </div>
+        <p  id="Copy">@CopyRights 2021 Bitcoin Profit.All right reserved
+
+        </p>
+    </footer>
+ </div>
+ <script>
+    const mainMenu = document.querySelector('.mainMenu');
+const closeMenu = document.querySelector('.closeMenu');
+const openMenu = document.querySelector('.openMenu');
+openMenu.addEventListener('click',show);
+closeMenu.addEventListener('click',close);
+function show(){
+mainMenu.style.display = 'flex';
+mainMenu.style.top = '0';
+}
+function close(){
+mainMenu.style.top = '-100%';
+}
+</script>
+<script src="Reg.js"></script>
+<script src="Login.js"></script>
+</body>
+</html>
