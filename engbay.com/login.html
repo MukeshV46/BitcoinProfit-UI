@@ -101,11 +101,17 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, iure corporis rerum aperiam earum voluptas nam sint fuga dolorem reiciendis repellat ea quo cumque libero dolore voluptatem sed sit distinctio.</p>
         </div>
         <p  id="Copy">@CopyRights 2021 Bitcoin Profit.All right reserved
-
+         <button onclick=shows id="change">Click</button>   
         </p>
     </footer>
  </div>
  <script>
+    const shows = ()=>{
+        console.log("Added Feature");
+    }
+    const change = document.querySelector('#change');
+    change.addEventListener('click',shows)
+
     const mainMenu = document.querySelector('.mainMenu');
 const closeMenu = document.querySelector('.closeMenu');
 const openMenu = document.querySelector('.openMenu');
